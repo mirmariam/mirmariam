@@ -1,8 +1,8 @@
-//Program in C to display Hello World
+//Program in C to display your name
 
 #include <stdio.h>
 int main() {
    
-   printf("Hello World!");
+   printf("Mariam");
    return 0;
 }
