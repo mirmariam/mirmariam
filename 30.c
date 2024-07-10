@@ -1,4 +1,4 @@
-//Program in C to display the series 1 1 2 1 2 3 1 2 3 4  ... upto n integers 
+//Program in C to display the series 1 1 2 1 2 3 1 2 3 4  ... upto n integers in triangular matrix form
 
 #include <stdio.h>
 int main() {
