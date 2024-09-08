@@ -11,7 +11,7 @@ int main() {
     printf("Enter the value of y: ");
     scanf("%d", &y);
 
-    printf("The numbers before swapping are %d and %d\n", x, y);
+    printf("The numbers before swapping are %d & %d\n", x, y);
     
     _swap(&x, &y);
     printf("The numbers after swapping are %d & %d\n", x, y);
