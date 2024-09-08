@@ -4,7 +4,7 @@
 int main() {
    
    int arr[100];
-   int n = 5, i, j, change;
+   int n, i, j, change;
 
    printf("Enter the length of the array: ");
     scanf("%d", &n);
