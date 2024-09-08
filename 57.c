@@ -16,8 +16,8 @@ int main() {
       return -1;
    }
 
-   long int ans = fact(n);
-   printf("The factorial of %d is %ld\n", n, ans);
+   fact(n);
+   printf("The factorial of %d is %ld\n", n, fact(n);
 
 
 }
