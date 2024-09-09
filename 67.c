@@ -7,7 +7,7 @@ int main() {
     char str[50], *p;
     
     printf("Enter the string: ");
-    scanf("%s", str);
+    scanf("%s", &str);
 
     printf("The actual string is: %s\n", str);
 
