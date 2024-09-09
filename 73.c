@@ -6,9 +6,8 @@ int main() {
     FILE *F = fopen("file.txt", "w");
     char name[20] = "Mariam";
 
-    //This will display integers 0 - 10 in the file
-   
-        fprintf(F, "%s\n", name);
+    //this displays name in file
+    fprintf(F, "%s\n", name);
     
     fclose(F);
 
