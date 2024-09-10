@@ -3,8 +3,14 @@
 #include<stdio.h>
 
 int main() {
+    char *filename = "file.txt";
     FILE *F = fopen("file.txt", "w");
     char name[20] = "Mariam";
+
+    if(F == NULL) {
+        printf("Error; could not open file %s\n", filename);
+        return 1;
+    }
 
     //this displays name in file
     fprintf(F, "%s\n", name);
